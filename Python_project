@@ -1,0 +1,20 @@
+class Book:
+   
+      def__init__(self,author,bookname)
+      self.author = author
+      self.bookname = bookname
+    
+      def__get.author(self)
+      return self.name
+      def__get.bookname(self)
+      return self.bookname
+
+      def display_info(self):
+      print(f"book:{self.bookname}")
+      
+      book1 = Book("William shakeshpeare","midnight story")
+      book1.display_info()
+      book2= Book("Ruskin Bond","the wings of fire")
+      book2.display_info()
+       
+    
